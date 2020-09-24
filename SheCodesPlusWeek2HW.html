@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weather App</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/a807918b2b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<style>
+  h1 {
+  text-align: center;
+  color: rgb(0, 153, 255);
+  margin: 30px;
+  text-shadow: 2px 2px 4px #1743bb;
+}
+h2 {
+  color: rgb(83, 160, 241);
+  text-align: center;
+  font-size: 36px;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.sunny1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+.temperature1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(83, 160, 241);
+}
+li {
+  list-style: none;
+  text-align: justify;
+  display: right;
+  padding-left: 150px;
+  padding-right: 170px;
+}
+.left-column {
+  display: left;
+  text-align: justify;
+  padding-left: 180px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+}
+
+</style>
+<body>
+  <h1>Weather App</h1>
+  <div class="container">
+    <div class="card">
+      <form>
+        <div class="card-body">
+          <div class="row">
+            <div class="col">
+              <input type="text" placeholder="Enter City Name" />
+            </div>
+            <div class="col">
+              <p align="right">
+                <input type="submit" value="Search" style="text-align: right;" style="display: inline-block;"
+                  style="box-shadow: darkcyan;" role="button" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Lisbon</h2>
+        <div class="sunny1">
+          <img src="https://townsquare.media/site/725/files/2020/01/sun.jpg?w=980&q=75" alt="" width="80" height="80"
+            class="center" />
+        </div>
+        <div class="temperature1">28ºC</div>
+      </div>
+      </p>
+      </b>
+      <div class="row">
+        <div class="col-6 left-column">
+          <p>
+            Monday
+            <br />
+            Tuesday
+            <br />
+            Wednesday
+            <br />
+            Thursday
+            <br />
+            Friday
+          </p>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li>
+              <img class="sunny" src="https://townsquare.media/site/725/files/2020/01/sun.jpg?w=980&q=75" alt=""
+                width="20" height="20" class="center" />
+              30º
+            </li>
+            <li>
+              <img src="https://townsquare.media/site/725/files/2020/01/sun.jpg?w=980&q=75" alt="" width="20"
+                height="20" class="center" /> 28º
+            </li>
+            <li>
+              <img
+                src="https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Sun-and-Moon-PNG/Sun_with_Clouds_Transparent_PNG_Picture.png?m=1434276794"
+                alt="" width="20" height="20" class="center" /> 24ª
+            </li>
+            <li>
+              <img src="https://townsquare.media/site/725/files/2020/01/sun.jpg?w=980&q=75" alt="" width="20"
+                height="20" class="center" /> 26º
+            </li>
+            <li>
+              <img src="https://townsquare.media/site/725/files/2020/01/sun.jpg?w=980&q=75" alt="" width="20"
+                height="20" class="center" /> 25º
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <p class="card-text"><small class="text-muted">*made by AP</small></p>
+  </div>
+  <script src="src/index.js"></script>
+</body>
+
+</html>
